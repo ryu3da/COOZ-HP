@@ -720,37 +720,6 @@ section { position: relative; }
 .message-logo { margin-top: 48px; }
 .message-logo img { height: 32px; margin: 0 auto; }
 
-/* ---------- Staff ---------- */
-.staff-block {
-  display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 56px;
-  align-items: center;
-}
-.staff-block-noimg {
-  display: block;
-  max-width: 560px;
-  margin: 0 auto;
-  text-align: center;
-}
-.staff-name { font-family: var(--font-serif); font-size: 22px; color: var(--brown-900); margin-bottom: 4px; }
-.staff-name-en { font-family: var(--font-sans); font-size: 13px; color: var(--brown-500); margin-left: 12px; letter-spacing: 0.04em; }
-.staff-role { font-size: 13px; color: var(--accent); margin-bottom: 24px; }
-.staff-bio {
-  background: var(--white);
-  border: 1px dashed var(--brown-300);
-  border-radius: 16px;
-  padding: 24px;
-  font-size: 14px;
-  color: var(--brown-500);
-  line-height: 1.9;
-  text-align: left;
-}
-
-@media (max-width: 800px) {
-  .staff-block { grid-template-columns: 1fr; }
-}
-
 /* ---------- FAQ ---------- */
 .faq-list {
   max-width: 760px;
